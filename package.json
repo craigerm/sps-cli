@@ -1,7 +1,7 @@
 {
-  "name": "templa-cli",
+  "name": "tymo-cli",
   "version": "0.0.1",
-  "repository": "github:craigerm/templa-cli",
+  "repository": "github:craigerm/tymo-cli",
   "author": {
     "name": "Craig MacGregor",
     "email": "craig@84labs.com",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "templa": "src/runner.ts"
+    "tymo": "src/runner.ts"
   },
   "scripts": {
     "hello": "src/runner.ts",
