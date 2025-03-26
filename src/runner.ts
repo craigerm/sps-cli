@@ -10,7 +10,7 @@ process.on('SIGTERM', () => process.exit(0))
 
 const program = new Command()
 
-program.name('sps-cli').description('A wrapper for Shopify theme development')
+program.name('templa').description('A wrapper for Shopify theme development')
 
 program
   .command('push')

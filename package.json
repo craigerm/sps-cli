@@ -1,7 +1,7 @@
 {
-  "name": "sps-cli",
+  "name": "templa-cli",
   "version": "0.0.1",
-  "repository": "github:craigerm/sps-cli",
+  "repository": "github:craigerm/templa-cli",
   "author": {
     "name": "Craig MacGregor",
     "email": "craig@84labs.com",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "sps-cli": "src/runner.ts"
+    "templa": "src/runner.ts"
   },
   "scripts": {
     "hello": "src/runner.ts",
