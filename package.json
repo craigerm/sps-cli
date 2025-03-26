@@ -2,6 +2,7 @@
   "name": "sps",
   "private": true,
   "version": "0.0.0",
+  "repository": "git@github.com:craigerm/sps-cli.git",
   "author": "Craig MacGregor <craig@84labs.com>",
   "license": "MIT",
   "type": "module",
