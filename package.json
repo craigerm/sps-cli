@@ -1,0 +1,66 @@
+{
+  "name": "sps",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Craig MacGregor <craig@84labs.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "sps-cli": "src/runner.ts"
+  },
+  "scripts": {
+    "hello": "src/runner.ts",
+    "build": "bun build ./src/runner.ts --outdir ./dist",
+    "build:watch": "bun build ./src/runner.ts --outdir ./dist --watch",
+    "check_eslint": "eslint --print-config eslint.config.js",
+    "lint": "eslint",
+    "tsc": "tsc",
+    "check": "bun tsc && bun lint"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.8.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/bun": "^1.1.11",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.7.5",
+    "@types/yaml-front-matter": "^4.1.3",
+    "autoprefixer": "^10.4.20",
+    "chalk": "^5.3.0",
+    "chokidar": "^4.0.1",
+    "colorette": "^2.0.20",
+    "commander": "^13.1.0",
+    "consola": "^3.2.3",
+    "esbuild": "^0.24.0",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-copy-watch": "^2.3.1",
+    "esbuild-sass-plugin": "^3.3.1",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.2.0",
+    "postcss": "^8.4.47",
+    "pretty-byte": "^1.0.1",
+    "rollup": "^4.24.0",
+    "rollup-plugin-bundle-scss": "^0.1.3",
+    "rollup-plugin-import-map": "^3.0.0",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.79.4",
+    "sass-embedded": "^1.79.5",
+    "simple-git": "^3.27.0",
+    "yaml-front-matter": "^4.1.1"
+  }
+}

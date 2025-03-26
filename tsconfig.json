@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "strict": true,
+  },
+  "exclude": [
+    "dist",
+    "__tests__",
+    "node_modules"
+  ],
+  "include": [
+    "./src/globals.d.ts",
+    "./src/**/*.ts"
+  ],
+  "rootDir": ".",
+  "outDir": "./dist"
+}
