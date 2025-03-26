@@ -1,8 +1,7 @@
 {
   "name": "sps-cli",
-  "private": true,
   "version": "0.0.1",
-  "repository": "craigerm/sps-cli",
+  "repository": "github:craigerm/sps-cli",
   "author": {
     "name": "Craig MacGregor",
     "email": "craig@84labs.com",
