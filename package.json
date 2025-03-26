@@ -2,8 +2,12 @@
   "name": "sps-cli",
   "private": true,
   "version": "0.0.1",
-  "repository": "git@github.com:craigerm/sps-cli.git",
-  "author": "Craig MacGregor <craig@84labs.com>",
+  "repository": "craigerm/sps-cli",
+  "author": {
+    "name": "Craig MacGregor",
+    "email": "craig@84labs.com",
+    "url": "https://84labs.com"
+  },
   "license": "MIT",
   "type": "module",
   "bin": {
