@@ -25,6 +25,7 @@
     "node": ">=20.0.0"
   },
   "files": [
+    "checks",
     "src"
   ],
   "devDependencies": {
