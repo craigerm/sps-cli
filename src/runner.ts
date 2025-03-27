@@ -10,7 +10,7 @@ process.on('SIGTERM', () => process.exit(0))
 
 const program = new Command()
 
-program.name('templa').description('A wrapper for Shopify theme development')
+program.name('tymo').description('A wrapper for Shopify theme development')
 
 program
   .command('push')
